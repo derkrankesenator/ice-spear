@@ -37,6 +37,9 @@
       "target": [
         "AppImage"
       ]
+    },
+    "win": {
+      "target": "7z"
     }
   },
   "devDependencies": {
