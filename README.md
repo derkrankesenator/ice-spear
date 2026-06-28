@@ -51,10 +51,9 @@ https://gitlab.com/ice-spear-tools/issue-tracker/issues
   - Next run `npm install -d node-gyp@latest`
   - Next run `npm install --global yarn`
   - Clone Ice-Spear and `cd` in it
-  - Next run `yarn config set python /usr/bin/python2.7`
+  - Next run `npm config set python [python directory]`
   - Next run `yarn config set disturl https://electronjs.org/headers`
-  - Next run `yarn`
-  - Next run `yarn dist` and here we are
+  - Next run `yarn` and here we are
 
 ### Building and Running
 
@@ -66,7 +65,8 @@ https://gitlab.com/ice-spear-tools/issue-tracker/issues
   - run `npm run unpacked` and it should build an .exe to use at `.\ice-spear\dist\win-unpacked\Ice-Spear.exe`
 - **Building Compressed Release**
   - run `npm run dist` and it should build a compressed version for 
-  release at `.\ice-spear\dist\Ice-Spear-#.#.#-win.7z`
+  release at `.\ice-spear\dist\`
+
 
 ### License
 ___
