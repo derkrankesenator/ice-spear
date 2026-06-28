@@ -43,6 +43,18 @@ https://gitlab.com/ice-spear-tools/issue-tracker/issues
   - Next either open a new CMD in the location you wish to clone Ice-Spear to, or cd to that location.
   - Before building, `cd` into the root directory (the folder named `ice-spear` if you cloned)
   - Now run `yarn` and your project should be set up.
+- **Linux**
+  - Install python 2.7
+  - Install nvm (https://github.com/nvm-sh/nvm)
+  - Run `nvm install 14.19.3`
+  - Then run `nvm use 14.19.3` 
+  - Next run `npm install -d node-gyp@latest`
+  - Next run `npm install --global yarn`
+  - Clone Ice-Spear and `cd` in it
+  - Next run `yarn config set python /usr/bin/python2.7`
+  - Next run `yarn config set disturl https://electronjs.org/headers`
+  - Next run `yarn`
+  - Next run `yarn dist` and here we are
 
 ### Building and Running
 
