@@ -33,8 +33,10 @@
     "productName": "Ice-Spear",
     "copyright": "©2020 Max Bebök",
     "npmRebuild": true,
-    "win": {
-      "target": "7z"
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
     }
   },
   "devDependencies": {
